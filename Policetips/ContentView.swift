@@ -8,18 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
+    var body: some View{
         
-        VStack(alignment: .leading ,spacing: 20.0) {
-            
-            Image("police")
-                .resizable()
-                .padding()
-                .cornerRadius(50)
-                
-                
-            
-            
+            VStack(alignment: .leading ,spacing: 20.0) {
+                Image("police")
+                    .resizable()
+                    .padding()
+                    .cornerRadius(50)
+        }
+    
+
+        
+        
             HStack {
                 Spacer()
                 Text("PoliceTips")
@@ -37,13 +37,20 @@ struct ContentView: View {
                     .font(.largeTitle)
                 
                 Spacer()
+        
+                
+                
+            
+            
+        
             }
+    
 
             
            
             
             
-            Text("Twój błąd może kosztować życie - Twoje lub innych. Tylko profesjonalizm Cię uratuje.")
+            Text("Twój błąd może kosztować życie - Twoje lub innych. Tylko profesjonalizm może Ci pomóc.")
                 .font(.body)
                 .fontWeight(.bold)
                 .multilineTextAlignment(.trailing)
@@ -53,7 +60,7 @@ struct ContentView: View {
                 
         }
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
